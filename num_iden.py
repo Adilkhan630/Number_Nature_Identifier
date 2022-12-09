@@ -1,9 +1,9 @@
 import random
 
-minNum = int(input("Enter your min value: "))
-maxNum = int(input("Enter your max value: "))
+minnum = int(input("Enter your min value: "))
+maxnum = int(input("Enter your max value: "))
 
-num = random.randint(minNum, maxNum);
+num = random.randint(minnum, maxnum);
 
 if num > 0:
     print("{} is Positive number".format(num))
